@@ -1,20 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3aba342-9460-4ee1-ac3e-800346596707" name="Changes" comment="">
+    <list default="true" id="b3aba342-9460-4ee1-ac3e-800346596707" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/.env" beforeDir="false" afterPath="$PROJECT_DIR$/projet/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/projet/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/.idea/projet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/.idea/projet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/projet/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/projet/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/config/packages/debug.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/debug.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/config/packages/doctrine_migrations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/config/packages/monolog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/monolog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/config/packages/sensio_framework_extra.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/sensio_framework_extra.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/translation.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/config/packages/validator.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/validator.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/config/packages/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/web_profiler.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/config/routes/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/routes/web_profiler.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/projet/database/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/docker-compose.override.yml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/docker-compose.override.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/migrations/Version20230321135149.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/migrations/Version20230321135149.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/migrations/Version20230321141132.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/migrations/Version20230321141132.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/migrations/Version20230321141758.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/migrations/Version20230321141758.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/projet/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/src/Entity/Pokemon.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Entity/Pokemon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/src/Repository/PokemonRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Repository/PokemonRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Repository/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/projet/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/projet/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projet" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -52,6 +87,54 @@
       <path value="$PROJECT_DIR$/projet/vendor/symfony/dotenv" />
       <path value="$PROJECT_DIR$/projet/vendor/psr/container" />
       <path value="$PROJECT_DIR$/projet/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/projet/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/projet/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/projet/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/apache-pack" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/password-hasher" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/security-http" />
     </include_path>
   </component>
   <component name="ProjectId" id="2N2xwq6MaGJbzgCGw87ugG8b6tc" />
@@ -65,7 +148,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ylacaze/tp/ProjetPHP",
+    "last_opened_file_path": "/home/moi/Bureau/ProjetPHP",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -78,10 +161,15 @@
       <option name="presentableId" value="Default" />
       <updated>1678876219990</updated>
       <workItem from="1678876222254" duration="1396000" />
+      <workItem from="1679472975893" duration="2304000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
