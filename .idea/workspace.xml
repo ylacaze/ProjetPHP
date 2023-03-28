@@ -1,43 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b3aba342-9460-4ee1-ac3e-800346596707" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/projet/templates/User/view.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/.env" beforeDir="false" afterPath="$PROJECT_DIR$/projet/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/projet/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/.idea/projet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/.idea/projet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/projet/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/projet/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/config/packages/debug.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/debug.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/doctrine.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/config/packages/doctrine_migrations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/config/packages/monolog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/monolog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/config/packages/sensio_framework_extra.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/sensio_framework_extra.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/translation.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/config/packages/validator.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/validator.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/config/packages/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/web_profiler.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/config/routes/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/routes/web_profiler.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/projet/database/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/docker-compose.override.yml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/docker-compose.override.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/migrations/Version20230321135149.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/migrations/Version20230321135149.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/migrations/Version20230321141132.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/migrations/Version20230321141132.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/migrations/Version20230321141758.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/migrations/Version20230321141758.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/projet/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/src/Entity/Pokemon.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Entity/Pokemon.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/src/Repository/PokemonRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Repository/PokemonRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Repository/UserRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/projet/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/src/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Controller/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/templates/base.html.twig" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +119,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/moi/Bureau/ProjetPHP",
+    "last_opened_file_path": "/home/moi/Bureau/TP_PHP",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -161,7 +136,8 @@
       <option name="presentableId" value="Default" />
       <updated>1678876219990</updated>
       <workItem from="1678876222254" duration="1396000" />
-      <workItem from="1679472975893" duration="2304000" />
+      <workItem from="1679472975893" duration="2979000" />
+      <workItem from="1679992673295" duration="5711000" />
     </task>
     <servers />
   </component>
