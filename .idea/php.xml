@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+
   <component name="MessDetectorOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>
@@ -43,6 +44,7 @@
       <path value="$PROJECT_DIR$/projet/vendor/symfony/dotenv" />
       <path value="$PROJECT_DIR$/projet/vendor/psr/container" />
       <path value="$PROJECT_DIR$/projet/vendor/symfony/polyfill-mbstring" />
+
       <path value="$PROJECT_DIR$/projet/vendor/doctrine/event-manager" />
       <path value="$PROJECT_DIR$/projet/vendor/doctrine/common" />
       <path value="$PROJECT_DIR$/projet/vendor/doctrine/migrations" />
@@ -100,4 +102,5 @@
   <component name="PsalmOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>
+
 </project>

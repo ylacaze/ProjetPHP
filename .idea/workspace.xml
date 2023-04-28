@@ -21,6 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings" doNotAsk="true" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
+
     <pharConfigPath>$PROJECT_DIR$/projet/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -126,6 +127,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -138,6 +140,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+
   }
 }</component>
   <component name="RecentsManager">
@@ -157,6 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678876219990</updated>
+
       <workItem from="1678876222254" duration="1396000" />
       <workItem from="1679472975893" duration="2979000" />
       <workItem from="1679992673295" duration="6540000" />
@@ -178,6 +182,7 @@
       <workItem from="1682367166293" duration="1375000" />
       <workItem from="1682438635451" duration="2612000" />
       <workItem from="1682669472615" duration="871000" />
+
     </task>
     <task id="LOCAL-00001" summary="Creation page d'accueil">
       <created>1679998772464</created>
