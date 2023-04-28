@@ -39,8 +39,43 @@ class PokemonController extends AbstractController
         return $this->render('Pokemon/Pokemon.html.twig', $args);
     }
 
-    #[Route('/add/Poke', name: 'add_pokemon')]
-    public function add(EntityManagerInterface $em): Response{
-        //TODO
+
+    public function add(EntityManagerInterface $em){
+        $pikachu = new Pokemon();
+        $pikachu
+            ->setLibelle("pikachu")
+            ->setPrix(25)
+            ->setQteStock(60);
+        $em->persist($pikachu);
+
+        $salameche = new Pokemon();
+        $salameche
+            ->setLibelle("salameche")
+            ->setPrix(35)
+            ->setQteStock(40);
+        $em->persist($salameche);
+
+        $carapuce = new Pokemon();
+        $carapuce
+            ->setLibelle("carapuce")
+            ->setPrix(35)
+            ->setQteStock(40);
+        $em->persist($carapuce);
+
+        $bulbizare = new Pokemon();
+        $bulbizare
+            ->setLibelle("bulbizare")
+            ->setPrix(35)
+            ->setQteStock(40);
+        $em->persist($bulbizare);
+
+        $mewtwo = new Pokemon();
+        $mewtwo
+            ->setLibelle("mewtwo")
+            ->setPrix(3000)
+            ->setQteStock(1);
+        $em->persist($mewtwo);
+
+        $em->flush();
     }
 }
