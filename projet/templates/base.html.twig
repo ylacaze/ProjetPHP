@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block title %}Bienvenue{% endblock %}
+    </head>
+    <body>
+        <div>
+            {% if app.session.get("connected") %}
+                {% if app.session.get("admin") %}
+                    <img src="Dracaufeu.png" alt="Dracaufeu"/>
+                {% else %}
+                    <img src="Reptincel.png" alt="Reptincel"/>
+                {% endif %}
+            {% else %}
+                <img src="Salameche.png" alt="Salameche"/>
+            {% endif %}
+
+        </div>
+
+        
+        <div>
+            {% if app.session.get("connected") %}
+                {% if app.session.get("admin") %}
+                    <button onclick="window.location.href = '{# TODO redirction vers l'ajout d'un pokemon#}';"> ajouter un pokemon </button>
+                {% else %}
+                    <button onclick="window.location.href = '{{ path('app_logout') }}';"> déconnexion </button>
+                    <button onclick="window.location.href = '{{ path('list_pokemon') }}';"> voir les pokemons </button>
+                    <button onclick="window.location.href = '{{ path('panier_index') }}';"> voir le panier </button>
+                {% endif %}
+            {% else %}
+                <button onclick="window.location.href = '{{ path('_connexion') }}';"> connexion </button>
+                {# TODO créer des compte#}
+            {% endif %}
+
+        </div>
+
+        {% block contenu %}{% endblock %}
+
+        <div>
+            <img src="bandeauBas.jpeg" alt="bandeau du bas"/>
+        </div>
+
+    </body>
+</html>
