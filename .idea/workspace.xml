@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3aba342-9460-4ee1-ac3e-800346596707" name="Changes" comment="commit fichiers security et login">
+    <list default="true" id="b3aba342-9460-4ee1-ac3e-800346596707" name="Changes" comment="début gestion panier">
+      <change afterPath="$PROJECT_DIR$/projet/src/Controller/PanierController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/projet/templates/Site/panier.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet/templates/Site/accueil.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/Site/accueil.html.twig" afterDir="false" />
@@ -184,7 +185,7 @@
       <workItem from="1682352819737" duration="4559000" />
       <workItem from="1682367166293" duration="1375000" />
       <workItem from="1682438635451" duration="2612000" />
-      <workItem from="1682669472615" duration="3617000" />
+      <workItem from="1682669472615" duration="4436000" />
     </task>
     <task id="LOCAL-00001" summary="Creation page d'accueil">
       <created>1679998772464</created>
@@ -207,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682670916058</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="début gestion panier">
+      <created>1682674733873</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682674733873</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +226,7 @@
     <MESSAGE value="Creation page d'accueil" />
     <MESSAGE value="controller USer plus page acceuil ave login" />
     <MESSAGE value="commit fichiers security et login" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit fichiers security et login" />
+    <MESSAGE value="début gestion panier" />
+    <option name="LAST_COMMIT_MESSAGE" value="début gestion panier" />
   </component>
 </project>
