@@ -1,17 +1,11 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title>
-            {% block title %}Bienvenu sur notre Site !
-            {% endblock %}
-        </title>
-        {% block stylesheet %}
-            <link href="../accueil.css" rel="stylesheet">
-        {% endblock %}
-    </head>
+{% extends 'base.html.twig' %}
 
-    <body>
+{% block title %}Bienvenu sur notre Site !
+    <meta charset="utf-8">
+    <link href="../accueil.css" rel="stylesheet">
+{% endblock %}
+
+{% block contenu %}
 
         <nav id="accueil_navbar" role="navigation" class="navbar-fixed-top"
              style="background-color: #70a6fd; width: auto">
@@ -32,13 +26,7 @@
         <main>
             <test>
                 <h2>En-tête d'article</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Donec a diam lectus. Set sit amet ipsum mauris.
-                    Maecenas congue ligula as quam viverra nec consectetur ant hendrerit.
-                    Donec et mollis dolor.
-                    Praesent et diam eget libero egestas mattis sit amet vitae augue.
-                    Nam tincidunt congue enim, ut porta lorem lacinia consectetur.
-                </p>
+                {% include "Pokemons.html.twig" %}
             </test>
 
             <aside>
@@ -53,7 +41,4 @@
             </aside>
         </main>
 
-        <div class="footer" style="background-color: #629755; width: auto; height: auto">
-        </div>
-    </body>
-</html>
+{% endblock %}

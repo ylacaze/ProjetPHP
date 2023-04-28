@@ -1,14 +1,12 @@
-<!DOCTYPE html>
+{% extends 'base.html.twig' %}
 
+{% block title %}
+    <meta charset="UTF-8">
+    <title>Vente</title>
+    <link href="accueil.css" rel="stylesheet" type="text/css">
+{% endblock %}
 
-<html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <title>Vente</title>
-        <link href="accueil.css" rel="stylesheet" type="text/css">
-
-    </head>
-        {%  block body %}
+{%  block contenu %}
         
             <div id="presentation">
                 <h1>PokeBienvenue sur le PokeSite de la PokeVente</h1>
@@ -25,12 +23,6 @@
                 {% include "/security/loginUser.html.twig" %}
             </div>
 
-            <div id="container">
-                <div id="footer">
-                    {% include "/User/footer.html.twig" %}
-                </div>
-            </div>
+{% endblock %}
 
-        {% endblock %}
 
-</html>

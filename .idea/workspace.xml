@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f5f27be-21ed-4964-a091-a4ee945f0012" name="Changes" comment="début gestion panier">
+    <list default="true" id="6f5f27be-21ed-4964-a091-a4ee945f0012" name="Changes" comment="Security">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/database/mybase.db" beforeDir="false" afterPath="$PROJECT_DIR$/projet/database/mybase.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/src/Controller/PanierController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Controller/PanierController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/src/Controller/PokemonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Controller/PokemonController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Controller/SecurityController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet/src/Security/AppAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Security/AppAuthenticator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet/templates/Pokemon/Pokemon.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/Pokemon/Pokemon.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet/templates/Pokemon/Pokemons.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/Pokemon/Pokemons.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/templates/Site/accueil.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/Site/accueil.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet/templates/Site/connexion.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/Site/connexion.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/templates/User/loginUser.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/security/loginUser.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/templates/Site/panier.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/Site/panier.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/templates/User/footer.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/security/login.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +40,18 @@
     </key>
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Security">
+      <created>1682688816651</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682688816651</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Security" />
+    <option name="LAST_COMMIT_MESSAGE" value="Security" />
   </component>
 </project>
