@@ -11,6 +11,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class PokemonController extends AbstractController
 {
+
     #[Route('/pokemons', name: 'list_pokemon')]
     public function index(EntityManagerInterface $em): Response
     {
@@ -42,5 +43,6 @@ class PokemonController extends AbstractController
     #[Route('/add/Poke', name: 'add_pokemon')]
     public function add(EntityManagerInterface $em): Response{
         //TODO
+
     }
 }

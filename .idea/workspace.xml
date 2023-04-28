@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3aba342-9460-4ee1-ac3e-800346596707" name="Changes" comment="">
+    <list default="true" id="b3aba342-9460-4ee1-ac3e-800346596707" name="Changes" comment="controller USer plus page acceuil ave login">
+      <change afterPath="$PROJECT_DIR$/projet/css/accueil.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet/templates/Site/accueil.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet/templates/User/footer.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet/templates/User/loginUser.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/database/mybase.db" beforeDir="false" afterPath="$PROJECT_DIR$/projet/database/mybase.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/src/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Controller/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/templates/User/view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/Site/connexion.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
+
     <pharConfigPath>$PROJECT_DIR$/projet/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,7 +38,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php">
     <include_path>
       <path value="$PROJECT_DIR$/projet/vendor/symfony/cache-contracts" />
       <path value="$PROJECT_DIR$/projet/vendor/symfony/finder" />
@@ -52,6 +71,54 @@
       <path value="$PROJECT_DIR$/projet/vendor/symfony/dotenv" />
       <path value="$PROJECT_DIR$/projet/vendor/psr/container" />
       <path value="$PROJECT_DIR$/projet/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/projet/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/projet/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/projet/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/projet/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/apache-pack" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/password-hasher" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/projet/vendor/symfony/security-http" />
     </include_path>
   </component>
   <component name="ProjectId" id="2N2xwq6MaGJbzgCGw87ugG8b6tc" />
@@ -60,15 +127,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ylacaze.SFASP2MI/tp/ProjetPHP/projet",
-    "vue.rearranger.settings.migration": "true"
+
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/moi/Bureau/ProjetPHP/projet/database/mybase.db&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projet/css" />
+      <recent name="$PROJECT_DIR$/projet/templates/Site" />
+      <recent name="$PROJECT_DIR$/projet/templates/User" />
+      <recent name="$PROJECT_DIR$/projet/public" />
+      <recent name="$PROJECT_DIR$/projet/templates" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,12 +160,54 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678876219990</updated>
-      <workItem from="1678876222254" duration="2101000" />
-      <workItem from="1678885407871" duration="1192000" />
+
+      <workItem from="1678876222254" duration="1396000" />
+      <workItem from="1679472975893" duration="2979000" />
+      <workItem from="1679992673295" duration="6540000" />
+      <workItem from="1680011823387" duration="512000" />
+      <workItem from="1680522002731" duration="623000" />
+      <workItem from="1680771988283" duration="53000" />
+      <workItem from="1680787003791" duration="1715000" />
+      <workItem from="1680795734000" duration="2985000" />
+      <workItem from="1680854056950" duration="5524000" />
+      <workItem from="1680970561597" duration="621000" />
+      <workItem from="1680971939262" duration="1824000" />
+      <workItem from="1680974768529" duration="15000" />
+      <workItem from="1681024905560" duration="3830000" />
+      <workItem from="1681047736747" duration="5581000" />
+      <workItem from="1681649414220" duration="57000" />
+      <workItem from="1681665763833" duration="24000" />
+      <workItem from="1681927055783" duration="1997000" />
+      <workItem from="1682352819737" duration="4559000" />
+      <workItem from="1682367166293" duration="1375000" />
+      <workItem from="1682438635451" duration="2612000" />
+      <workItem from="1682669472615" duration="871000" />
+
     </task>
+    <task id="LOCAL-00001" summary="Creation page d'accueil">
+      <created>1679998772464</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679998772464</updated>
+    </task>
+    <task id="LOCAL-00002" summary="controller USer plus page acceuil ave login">
+      <created>1680854437280</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680854437281</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="Creation page d'accueil" />
+    <MESSAGE value="controller USer plus page acceuil ave login" />
+    <option name="LAST_COMMIT_MESSAGE" value="controller USer plus page acceuil ave login" />
   </component>
 </project>
