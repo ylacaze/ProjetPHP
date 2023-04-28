@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3aba342-9460-4ee1-ac3e-800346596707" name="Changes" comment="controller USer plus page acceuil ave login">
-      <change afterPath="$PROJECT_DIR$/projet/templates/User/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ProjetPHP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjetPHP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet/css/accueil.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet/templates/Site/accueil.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet/templates/User/footer.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet/templates/User/loginUser.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/database/mybase.db" beforeDir="false" afterPath="$PROJECT_DIR$/projet/database/mybase.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet/src/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Controller/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/templates/User/view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/User/view.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/templates/User/view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/Site/connexion.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +131,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/moi/Bureau/TP_PHP&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/moi/Bureau/ProjetPHP/projet/database/mybase.db&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -137,6 +140,15 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projet/css" />
+      <recent name="$PROJECT_DIR$/projet/templates/Site" />
+      <recent name="$PROJECT_DIR$/projet/templates/User" />
+      <recent name="$PROJECT_DIR$/projet/public" />
+      <recent name="$PROJECT_DIR$/projet/templates" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -153,7 +165,19 @@
       <workItem from="1680771988283" duration="53000" />
       <workItem from="1680787003791" duration="1715000" />
       <workItem from="1680795734000" duration="2985000" />
-      <workItem from="1680854056950" duration="347000" />
+      <workItem from="1680854056950" duration="5524000" />
+      <workItem from="1680970561597" duration="621000" />
+      <workItem from="1680971939262" duration="1824000" />
+      <workItem from="1680974768529" duration="15000" />
+      <workItem from="1681024905560" duration="3830000" />
+      <workItem from="1681047736747" duration="5581000" />
+      <workItem from="1681649414220" duration="57000" />
+      <workItem from="1681665763833" duration="24000" />
+      <workItem from="1681927055783" duration="1997000" />
+      <workItem from="1682352819737" duration="4559000" />
+      <workItem from="1682367166293" duration="1375000" />
+      <workItem from="1682438635451" duration="2612000" />
+      <workItem from="1682669472615" duration="871000" />
     </task>
     <task id="LOCAL-00001" summary="Creation page d'accueil">
       <created>1679998772464</created>
@@ -162,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679998772464</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="controller USer plus page acceuil ave login">
+      <created>1680854437280</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680854437281</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
