@@ -2,10 +2,16 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <link href="../accueil.css" rel="stylesheet">
+        <title>
+            {% block title %}Bienvenu sur notre Site !
+            {% endblock %}
+        </title>
+        {% block stylesheet %}
+            <link href="../accueil.css" rel="stylesheet">
+        {% endblock %}
     </head>
 
-    <body style="background-color: #F7E5A1">
+    <body>
 
         <nav id="accueil_navbar" role="navigation" class="navbar-fixed-top"
              style="background-color: #70a6fd; width: auto">

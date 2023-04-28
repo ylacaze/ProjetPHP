@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3aba342-9460-4ee1-ac3e-800346596707" name="Changes" comment="controller USer plus page acceuil ave login">
-      <change afterPath="$PROJECT_DIR$/projet/css/accueil.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet/templates/Site/accueil.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet/templates/User/footer.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet/templates/User/loginUser.html.twig" afterDir="false" />
+    <list default="true" id="b3aba342-9460-4ee1-ac3e-800346596707" name="Changes" comment="commit fichiers security et login">
+      <change afterPath="$PROJECT_DIR$/projet/templates/Site/panier.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/database/mybase.db" beforeDir="false" afterPath="$PROJECT_DIR$/projet/database/mybase.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/src/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Controller/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/templates/User/view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/Site/connexion.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/templates/Site/accueil.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/Site/accueil.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +27,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5ec62d79-2c33-4ebd-a17f-eed5814b77fe" />
+        <option name="url" value="https://github.com/ylacaze/ProjetPHP.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -177,7 +184,7 @@
       <workItem from="1682352819737" duration="4559000" />
       <workItem from="1682367166293" duration="1375000" />
       <workItem from="1682438635451" duration="2612000" />
-      <workItem from="1682669472615" duration="871000" />
+      <workItem from="1682669472615" duration="3617000" />
     </task>
     <task id="LOCAL-00001" summary="Creation page d'accueil">
       <created>1679998772464</created>
@@ -193,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680854437281</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit fichiers security et login">
+      <created>1682670916058</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682670916058</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +217,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="Creation page d'accueil" />
     <MESSAGE value="controller USer plus page acceuil ave login" />
-    <option name="LAST_COMMIT_MESSAGE" value="controller USer plus page acceuil ave login" />
+    <MESSAGE value="commit fichiers security et login" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit fichiers security et login" />
   </component>
 </project>
