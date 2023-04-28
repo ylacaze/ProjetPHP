@@ -8,7 +8,7 @@
 <table border="3">
     <tr><td>id</td><td>nom</td><td>prix</td><td>quantite</td></tr>
     {% for poke in Pokemons %}
-        <tr><td>{{ poke.id }}</td><td><a href="/pokemon/{{ poke.id }}"> {{ poke.libelle }}</a></td><td>{{ poke.prix }}</td><td>{{ poke.qte }}</td></tr>
+        <tr><td>{{ poke.id }}</td><td><a href="/pokemon/{{ poke.id }}"> {{ poke.libelle }}</a></td><td>{{ poke.prix }}</td><td>{{ poke.qteStock }}</td></tr>
     {% endfor %}
 </table>
 

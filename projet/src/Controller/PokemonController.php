@@ -39,7 +39,7 @@ class PokemonController extends AbstractController
 
         return $this->render('Pokemon/Pokemon.html.twig', $args);
     }
-
+    #[Route('Pokemon/ajouterendur', name : 'pokemon_ajouterendur')]
     public function add(EntityManagerInterface $em){
         $pikachu = new Pokemon();
         $pikachu
@@ -64,7 +64,7 @@ class PokemonController extends AbstractController
 
         $bulbizare = new Pokemon();
         $bulbizare
-            ->setLibelle("bulbizare")
+            ->setLibelle("bulbizarre")
             ->setPrix(35)
             ->setQteStock(40);
         $em->persist($bulbizare);

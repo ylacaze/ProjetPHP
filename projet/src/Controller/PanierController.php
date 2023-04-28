@@ -15,7 +15,7 @@ class PanierController extends AbstractController
         return $this->render('Site/panier.html.twig', []);
     }
 
-    #Route('/panier/add/{id}', name='panier_add'
+    #[Route('/panier/add/{id}', name:'panier_add')]
     public function add($id, Request $request) {
         $session = $request->getSession();
         $panier = $session->get('panier', []);

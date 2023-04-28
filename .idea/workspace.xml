@@ -4,164 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3aba342-9460-4ee1-ac3e-800346596707" name="Changes" comment="début gestion panier">
-      <change afterPath="$PROJECT_DIR$/projet/src/Controller/PanierController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet/templates/Site/panier.html.twig" afterDir="false" />
+    <list default="true" id="6f5f27be-21ed-4964-a091-a4ee945f0012" name="Changes" comment="début gestion panier">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/templates/Site/accueil.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/Site/accueil.html.twig" afterDir="false" />    </list>
+      <change beforePath="$PROJECT_DIR$/projet/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/database/mybase.db" beforeDir="false" afterPath="$PROJECT_DIR$/projet/database/mybase.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/src/Controller/PanierController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Controller/PanierController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/src/Controller/PokemonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Controller/PokemonController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/src/Security/AppAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/src/Security/AppAuthenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/templates/Pokemon/Pokemon.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/Pokemon/Pokemon.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/templates/Pokemon/Pokemons.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/Pokemon/Pokemons.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/templates/Site/connexion.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/Site/connexion.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/templates/User/loginUser.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/security/loginUser.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/projet/templates/security/login.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/projet/composer.json</pharConfigPath>
+  <component name="ComposerSettings">
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="5ec62d79-2c33-4ebd-a17f-eed5814b77fe" />
-        <option name="url" value="https://github.com/ylacaze/ProjetPHP.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration">
-    <include_path>
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/cache-contracts" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/finder" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/deprecation-contracts" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/runtime" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/routing" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/var-exporter" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/polyfill-intl-grapheme" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/polyfill-intl-normalizer" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/cache" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/dependency-injection" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/config" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/filesystem" />
-      <path value="$PROJECT_DIR$/projet/vendor/composer" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/error-handler" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/event-dispatcher-contracts" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/console" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/flex" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/event-dispatcher" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/var-dumper" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/http-foundation" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/framework-bundle" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/http-kernel" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/service-contracts" />
-      <path value="$PROJECT_DIR$/projet/vendor/psr/event-dispatcher" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/string" />
-      <path value="$PROJECT_DIR$/projet/vendor/psr/cache" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/yaml" />
-      <path value="$PROJECT_DIR$/projet/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/dotenv" />
-      <path value="$PROJECT_DIR$/projet/vendor/psr/container" />
-      <path value="$PROJECT_DIR$/projet/vendor/symfony/polyfill-mbstring" />
-    </include_path>
-  </component>
-  <component name="ProjectId" id="2N2xwq6MaGJbzgCGw87ugG8b6tc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/moi/Bureau/ProjetPHP/projet/database/mybase.db&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projet/templates/security" />
+    </key>
+  </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="b3aba342-9460-4ee1-ac3e-800346596707" name="Changes" comment="" />
-      <created>1678876219990</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1678876219990</updated>
-      <workItem from="1678876222254" duration="1396000" />
-      <workItem from="1679472975893" duration="2979000" />
-      <workItem from="1679992673295" duration="6540000" />
-      <workItem from="1680011823387" duration="512000" />
-      <workItem from="1680522002731" duration="623000" />
-      <workItem from="1680771988283" duration="53000" />
-      <workItem from="1680787003791" duration="1715000" />
-      <workItem from="1680795734000" duration="2985000" />
-      <workItem from="1680854056950" duration="5524000" />
-      <workItem from="1680970561597" duration="621000" />
-      <workItem from="1680971939262" duration="1824000" />
-      <workItem from="1680974768529" duration="15000" />
-      <workItem from="1681024905560" duration="3830000" />
-      <workItem from="1681047736747" duration="5581000" />
-      <workItem from="1681649414220" duration="57000" />
-      <workItem from="1681665763833" duration="24000" />
-      <workItem from="1681927055783" duration="1997000" />
-      <workItem from="1682352819737" duration="4559000" />
-      <workItem from="1682367166293" duration="1375000" />
-      <workItem from="1682438635451" duration="2612000" />
-      <workItem from="1682669472615" duration="4436000" />
-    </task>
-    <task id="LOCAL-00001" summary="Creation page d'accueil">
-      <created>1679998772464</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1679998772464</updated>
-    </task>
-    <task id="LOCAL-00002" summary="controller USer plus page acceuil ave login">
-      <created>1680854437280</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1680854437281</updated>
-    </task>
-    <task id="LOCAL-00003" summary="commit fichiers security et login">
-      <created>1682670916058</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1682670916058</updated>
-    </task>
-    <task id="LOCAL-00004" summary="début gestion panier">
-      <created>1682674733873</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1682674733873</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
-    <MESSAGE value="Creation page d'accueil" />
-    <MESSAGE value="controller USer plus page acceuil ave login" />
-    <MESSAGE value="commit fichiers security et login" />
-    <MESSAGE value="début gestion panier" />
-    <option name="LAST_COMMIT_MESSAGE" value="début gestion panier" />
   </component>
 </project>
