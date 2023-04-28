@@ -11,6 +11,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class PokemonController extends AbstractController
 {
+
     #[Route('/pokemons', name: 'list_pokemon')]
     public function index(EntityManagerInterface $em): Response
     {
@@ -38,7 +39,6 @@ class PokemonController extends AbstractController
 
         return $this->render('Pokemon/Pokemon.html.twig', $args);
     }
-
 
     public function add(EntityManagerInterface $em){
         $pikachu = new Pokemon();
@@ -77,5 +77,6 @@ class PokemonController extends AbstractController
         $em->persist($mewtwo);
 
         $em->flush();
+
     }
 }

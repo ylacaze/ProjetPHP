@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Vente</title>
+        <link href="accueil.css" rel="stylesheet" type="text/css">
+
+    </head>
+        <body>
+        
+            <div id="presentation">
+                <h1>PokeBienvenue sur le PokeSite de la PokeVente</h1>
+                <p>
+                    Ici vous pouvez retrouver tout ce dont vous avez toujours rêvé étant enfant
+                    parmi un large choix de Pokemon, nous avons ce que VOUS cherchez, n'hésitez plus une seconde et rejoignez notre PokeAventure !
+                </p>
+                <p>
+                    Encore quelques pas avant le paradis ...
+                </p>
+                <h2>Veuillez vous identifier Dresseur !</h2>
+            </div>
+
+
+            <div id="id_login" class="login">
+            <form id="id_form" action="authentification.php" methode="post">
+                <div class="container">
+                    <label for="name"><b>Nom</b></label>
+                    <br>
+                    <input type="text" placeholder="Entrez votre Nom" name="name" required>
+                    <br>
+
+
+                    <label for="pwd"><b>Mot de Passe</b></label><br>
+                    <input type="password" placeholder="Mot de Passe" name="pwd" required>
+                    <br><br>
+
+                    <button type="submit">Connexion</button>
+                </div>
+
+            </form>
+            </div>
+
+            <div id="container">
+                <div id="footer">
+                    {% include "/User/footer.html.twig" %}
+                </div>
+            </div>
+
+        </body>
+
+</html>
